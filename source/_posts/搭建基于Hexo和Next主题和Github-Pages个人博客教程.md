@@ -1,12 +1,12 @@
 ---
 title: 搭建基于Hexo和Next主题和Github Pages个人博客教程
 date: 2019-06-29 22:55:51
+categories: Hexo
 tags:
   - Hexo
   - Next
   - Github Pages
   - Travis CI
-Categories: Hexo
 ---
 
 ## Hexo简介
@@ -527,7 +527,7 @@ after_script
   # End: Build LifeCycle
   ```
 
-* 把主题文件下的 .git 目录删除了，不然主题不会提交
+* 把主题文件下的 .git 目录删除，不然主题文件不会推送到Github
 
 ### 推送到Github
 
@@ -541,4 +541,4 @@ git commit -m "init documents"
 git push origin dev
 ```
 
-此时在Travis CI中自动生成已启动，并查看日志。
+此时在Travis CI中自动生成已启动，可以查看具体日志。
