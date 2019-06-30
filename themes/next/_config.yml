@@ -365,8 +365,8 @@ reward_settings:
   comment: 感谢您的支持和鼓励！
 
 reward:
-  wechatpay: /images/wechatpay.jpg
-  alipay: /images/alipay.jpg
+  wechatpay: /images/wechatpay.JPG
+  alipay: /images/alipay.JPG
   #bitcoin: /images/bitcoin.png
 
 # Related popular posts
