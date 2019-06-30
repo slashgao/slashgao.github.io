@@ -54,7 +54,7 @@ themes：主题
 _config.yml: 博客的配置文件
 ```
 
-最后，运行程序，显示如下信息就可以访问http://localhost:4000，看到博客已经搭建成功了。
+最后，运行程序，显示如下信息就可以访问http://localhost:4000 ，看到博客已经搭建成功了。
 
 ```
 hexo server
@@ -542,4 +542,3 @@ git push origin dev
 ```
 
 此时在Travis CI中自动生成已启动，并查看日志。
-

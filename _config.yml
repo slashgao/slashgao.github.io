@@ -86,12 +86,11 @@ search:
   field: post
   format: html
   limit: 10000
-
-symbols_count_time:
-  symbols: true
-  time: true
-  total_symbols: true
-  total_time: true
+# hexo sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
