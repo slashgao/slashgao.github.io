@@ -6,8 +6,7 @@ tags:
   - Next
   - Github Pages
   - Travis CI
-Categories:
-  - Hexo
+Categories: Hexo
 ---
 
 ## Hexo简介
@@ -63,7 +62,7 @@ INFO  Start processing
 INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.
 ```
 
-设置主目录下的`_config.yml`，里面有网站基本设置
+设置主目录下的`_config.yml`文件，里面有网站基本设置
 
 ```
 #网站标题
@@ -543,3 +542,4 @@ git push origin dev
 ```
 
 此时在Travis CI中自动生成已启动，并查看日志。
+
